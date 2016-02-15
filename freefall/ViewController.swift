@@ -10,8 +10,6 @@ import UIKit
 
 class ViewController: UIViewController {
 
-//    @IBOutlet weak var ball: UIView!
-    
     @IBOutlet var balls: [UIView]!
     
 //    DynamicAnimatorを変数宣言する
@@ -31,14 +29,12 @@ class ViewController: UIViewController {
     
     func startGame() {
 //        UIDynamicAnimatorのクラス群のUIDynamicBehaviorを使う
-//        let gravityBehavior = UIGravityBehavior(items: [self.ball])
         let gravityBehavior = UIGravityBehavior(items: self.balls)
         
         dynamicAnimator = UIDynamicAnimator(referenceView: self.view)
         dynamicAnimator.addBehavior(gravityBehavior)
         
 //        衝突のシュミレーションのためにUICollisionBehaviorを使う
-//        let collisionBehavior = UICollisionBehavior(items: [self.balls])
         let collisionBehavior = UICollisionBehavior(items: self.balls)
         
       

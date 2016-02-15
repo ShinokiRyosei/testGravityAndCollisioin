@@ -156,6 +156,7 @@
 		39886F0A1B2BC00500F2937C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = shinokiryosei;
 				TargetAttributes = {
@@ -409,6 +410,7 @@
 				39886F331B2BC00500F2937C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		39886F341B2BC00500F2937C /* Build configuration list for PBXNativeTarget "freefallTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +419,7 @@
 				39886F361B2BC00500F2937C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
